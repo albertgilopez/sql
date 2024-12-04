@@ -1,0 +1,6 @@
+SELECT COUNT(*) FROM users;
+
+SELECT COUNT(email) FROM users;
+
+SELECT COUNT(DISTINCT email) FROM users;
+

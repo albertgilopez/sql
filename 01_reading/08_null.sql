@@ -1,0 +1,5 @@
+SELECT * FROM users WHERE age IS NULL;
+
+SELECT * FROM users WHERE age IS NOT NULL;
+
+SELECT * FROM users WHERE email IS NULL OR age IS NOT NULL;

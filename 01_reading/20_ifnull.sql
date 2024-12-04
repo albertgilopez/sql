@@ -1,0 +1,1 @@
+SELECT name, age, IFNULL(age, 'No tiene edad') AS age FROM users;

@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE age IN (18, 20, 22);
